@@ -15,7 +15,7 @@ class Server implements Runnable{
 	}
 
 	
-	private static final String IMG_PATH = "/server/images/";
+	private static final String IMG_PATH = "/server/images/";   //Run run on linux
 	
 	private DatagramSocket serverSocket;
 	private DatagramPacket sendPacket;
