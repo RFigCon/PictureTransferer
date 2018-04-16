@@ -17,7 +17,7 @@ class Client implements Runnable{
 		new Thread(new Client()).start();
 	}
 	
-	private final String IMAGE_PATH = "C:\\ServerImages\\";
+	private final String IMAGE_PATH = "C:\\ServerImages\\";   //Program was ran on windows
 	private final int SERVER_PORT = 10000;
 	
 	private BufferedReader inFromUser;
@@ -28,7 +28,7 @@ class Client implements Runnable{
 	private String message;
 	
 	private byte[] outData;
-    private byte[] inData;
+    	private byte[] inData;
 	
 	public Client() throws SocketException, UnknownHostException{
 		clientSocket = new DatagramSocket();
