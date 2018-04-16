@@ -60,10 +60,6 @@ class Server implements Runnable{
 					looping = false;
 					message = "<STOPPING SERVER>";
 				
-				}else if( message.equals(".disconnect") ){
-				
-					message = ".stop";
-				
 				}else if( message.equals(".getTime") ){
 				
 					message = getTimeFormated();
